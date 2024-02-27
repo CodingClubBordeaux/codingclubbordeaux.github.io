@@ -1,8 +1,11 @@
 {
   "name": "coding-club-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
