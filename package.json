@@ -1,0 +1,19 @@
+{
+  "name": "coding-club-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format": "prettier --write . !pnpm-lock.yaml"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "vitepress": "1.0.0-rc.44"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
