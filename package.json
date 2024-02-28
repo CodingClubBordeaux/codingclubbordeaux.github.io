@@ -10,7 +10,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "format": "prettier --write . !pnpm-lock.yaml"
+    "format": "prettier --cache --write . !pnpm-lock.yaml",
+    "format:check": "prettier --cache --check . !pnpm-lock.yaml"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
