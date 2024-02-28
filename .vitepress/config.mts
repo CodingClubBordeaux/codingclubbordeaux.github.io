@@ -44,5 +44,9 @@ export default defineConfig({
   ],
   markdown: {
     image: { lazyLoading: true },
+    theme: {
+      dark: 'dark-plus',
+      light: 'light-plus',
+    },
   },
 });
