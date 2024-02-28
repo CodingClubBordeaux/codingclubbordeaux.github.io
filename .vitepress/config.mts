@@ -12,6 +12,7 @@ const subjects = [
 export default defineConfig({
   title: 'Coding Club Bordeaux',
   description: "Site du Coding Club d'Epitech Bordeaux",
+  lang: 'fr-FR',
   srcDir: 'src',
   cleanUrls: true,
   themeConfig: {
@@ -20,14 +21,17 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       {
         text: 'Sujets',
-        items: subjects,
+        items: [
+          {
+            text: 'Web',
+            items: [
+              { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
+            ],
+          },
+        ],
       },
       { text: 'Guides', link: '/guides' },
     ],
-
-    sidebar: {
-      '/subject/': subjects,
-    },
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/nbaEnT7Mbt' },
