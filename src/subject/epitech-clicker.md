@@ -55,6 +55,55 @@ Si vous n’avez jamais développer un site web ou que vous souhaitez améliorer
 bases, je vous laisse des introductions et des tips sur les langages que vous
 utiliserez aujourd’hui ci dessous.
 
+::: details Exemple de code HTML/CSS/JS
+::: code-group
+
+```html [index.html]
+<!doctype html>
+<html>
+  <head>
+    <title>Ma super page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mydiv" class="center">
+      <p>Hello world</p>
+      <h1 id="counter">Count: 0</h1>
+      <button id="increment">Click me</button>
+    </div>
+
+    <script>
+      let number = 0;
+      let counterElem = document.getElementById('counter');
+      let incrementElem = document.getElementById('increment');
+
+      function incrementNumber() {
+        number = number + 1;
+        counterElem.textContent = 'Count: ' + number;
+      }
+
+      incrementElem.addEventListener('click', incrementNumber);
+    </script>
+  </body>
+</html>
+```
+
+```css [style.css]
+h1 {
+  color: red;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+```
+
+:::
+
 # Introduction au html
 
 ## Qu'est-ce que le HTML ?
