@@ -10,7 +10,7 @@ Ce projet a pour but de découvrir la programmation en réalisant un jeu d'arcad
 de type shooter. Ce sujet détaille les étapes pour créer les bases du jeu, à
 toi ensuite de laisser libre cours à ta créativité pour l'améliorer ! 🙌
 
-<video src="/images/tek-shooter/tek-shooter.mp4" width="300" autoplay loop muted />
+<video src="/images/tek-shooter/tek-shooter.mp4" width="300" height="400" autoplay loop muted />
 
 ## Introduction
 
@@ -505,7 +505,7 @@ Si tu es arrivé jusque là bravo ! 👏 J'ai une bonne et une mauvaise nouvelle
 Pour t'aider à terminer, voici une liste de choses à faire. Bien sûr, n'hésite
 pas à demander de l'aide, les encadrants du Coding Club sont là pour ça !
 
-::: info Choses à faire 📝
+::: warning Choses à faire 📝
 
 - **Toujours plus de classes !** Essaie de modifier ton code pour que le joueur
   devienne une classe `Player` et le jeu une classe `Game`.
