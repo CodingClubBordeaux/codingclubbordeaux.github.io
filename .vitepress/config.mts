@@ -28,6 +28,10 @@ export default defineConfig({
               { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
             ],
           },
+          {
+            text: 'Python',
+            items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' }],
+          },
         ],
       },
       { text: 'Guides', link: '/guides' },
