@@ -285,13 +285,15 @@ position du joueur. Ces variables doivent être définies en dehors des fonction
 `update()` et `draw()` pour ne pas être réinitialisées à chaque frame.
 
 Nous pouvons alors utiliser ces variables lors de l'affichage du joueur, plutôt
-que définir des valeurs fixes.
+que définir des valeurs fixes. Il est nécessaire de déclarer ces variables
+comme `global` au début des fonctions dans lesquelles elles seront utilisées.
 
 ```python
 player_x = 0  # [!code ++]
 player_y = 0  # [!code ++]
 
 def update():
+  global player_x, player_y  # [!code ++]
   # ...
   if pyxel.btnp(pyxel.KEY_LEFT):
     player_x -= 1  # [!code ++]
