@@ -1,23 +1,23 @@
 # <Icon icon="logos:c" /> Guide langage C
 
-Le C est **un langage de programmation de bas niveau** crée dans les années
+Le C est **un langage de programmation de bas niveau** créé dans les années
 1970, offrant au développeur une marge de contrôle importante sur la machine.
 
 Il est utilisé par la plupart des logiciels constituant les fondations des
-systèmes informatiques que nous utilisons aujourd'hui, et a inspiré la plupart
-des langages de programmation qui ont suivi.
+systèmes informatiques que nous utilisons aujourd'hui (Windows, Linux, ...), et
+a inspiré la plupart des langages de programmation qui ont suivi.
 
-Ce langage est le langage principal utilisé lors du cursus Epitech.
+C'est le premier langage que tu utiliseras lors de ton cursus Epitech.
 
-::: info À propos de ce guide
+::: info À propos
 
 Cette page est une référence rapide des fonctionnalités de base du langage C
-dont tu aura besoin pour les sujets du Coding Club. N'hésite pas à demander des
+dont tu auras besoin pour les sujets du Coding Club. N'hésite pas à demander des
 explications supplémentaires si tu as besoin ! :smile:
 
 Le bouton <Badge type="info"><Icon icon="simple-icons:compilerexplorer"/> Exécuter sur Compiler Explorer</Badge>
 ouvre un éditeur de code avec le résultat de l'exécution du code. Tu peux t'en
-servir pour changer le code et comprendre ce qui se passe.
+servir pour changer le code et comprendre ce qu'il s'y passe.
 
 :::
 
@@ -102,7 +102,7 @@ int main(void) {
 ## Conditions
 
 Les conditions permettent d'exécuter un bloc de code uniquement si une certaine
-condition est vraie. Tu peux utiliser différents opérateurs de comparaison:
+condition est remplie. Tu peux utiliser différents opérateurs de comparaison:
 `==`, `!=`, `<`, `>`, `<=`, `>=`.
 
 ```c:line-numbers{7-13}

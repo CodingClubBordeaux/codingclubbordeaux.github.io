@@ -32,6 +32,10 @@ export default defineConfig({
             text: 'Python',
             items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' }],
           },
+          {
+            text: 'C',
+            items: [{ text: 'Petit Bain', link: '/subject/petit-bain' }],
+          },
         ],
       },
       { text: 'Guides', items: [{ text: 'Langage C', link: '/guides/c' }] },
