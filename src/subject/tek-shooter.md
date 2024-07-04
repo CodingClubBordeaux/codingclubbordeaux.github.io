@@ -1,9 +1,3 @@
----
-sidebar: false
-prev: false
-next: false
----
-
 # Tek Shooter
 
 Ce projet a pour but de découvrir la programmation en réalisant un jeu d'arcade

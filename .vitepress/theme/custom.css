@@ -11,3 +11,9 @@
   --vp-c-brand-3: #0a51a1;
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 }
+
+.iconify {
+  display: inline-block;
+  vertical-align: middle;
+  margin-block-start: calc(1ex - 1cap);
+}

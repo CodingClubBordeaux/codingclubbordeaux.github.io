@@ -34,7 +34,7 @@ export default defineConfig({
           },
         ],
       },
-      { text: 'Guides', link: '/guides' },
+      { text: 'Guides', items: [{ text: 'Langage C', link: '/guides/c' }] },
     ],
 
     socialLinks: [

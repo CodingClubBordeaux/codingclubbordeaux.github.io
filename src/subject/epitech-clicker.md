@@ -1,9 +1,3 @@
----
-sidebar: false
-prev: false
-next: false
----
-
 # Epitech Clicker
 
 Bienvenue dans ce cours passionnant sur la création d'un jeu inspiré de
