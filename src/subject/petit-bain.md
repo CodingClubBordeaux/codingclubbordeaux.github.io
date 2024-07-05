@@ -36,7 +36,7 @@ sur une seule ligne.
 Les caractères sont encodés en utilisant [le code ASCII](https://man7.org/linux/man-pages/man7/ascii.7.html).
 
 ```c
-int my_print_alpha(void);
+void my_print_alpha(void);
 ```
 
 Sortie attendue:
@@ -51,7 +51,7 @@ Crée une fonction qui affiche les chiffres de 0 à 9 en ordre décroissant, sur
 une seule ligne.
 
 ```c
-int my_print_digits(void);
+void my_print_digits(void);
 ```
 
 Sortie attendue:
@@ -62,18 +62,18 @@ Sortie attendue:
 
 ## Exercice 4: `my_isneg`
 
-Crée une fonction qui renvoie `true` si le nombre passé en paramètre est négatif,
-et `false` sinon.
+Crée une fonction qui renvoie `1` si le nombre passé en paramètre est négatif,
+et `0` sinon.
 
 ```c
-bool my_isneg(int n);
+int my_isneg(int n);
 ```
 
 Sortie attendue:
 
 ```
-my_isneg(0): false
-my_isneg(-5): true
+my_isneg(0): 0
+my_isneg(-5): 1
 ```
 
 ## Exercice 5: `my_strlen`
