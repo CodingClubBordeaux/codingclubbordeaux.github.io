@@ -37,6 +37,23 @@ Pour exécuter rapidement du code C sans installer de logiciel, tu peux utiliser
 
 :::
 
+## Structure d'un programme
+
+Un programme C est composé au minimum d'une fonction `main`, qui contient le
+code exécuté lorsque le programme est lancé.
+
+Les instructions `#include` sont utilisées pour inclure des fonctions
+supplémentaires dans le programme. Par exemple, la fonction `printf` est ajoutée
+par `stdio.h`.
+
+```c:line-numbers
+#include <stdio.h>
+
+int main(void) {
+  // Code du programme
+}
+```
+
 ## Variables et types
 
 Les variables permettent de stocker des valeurs de différents types pendant
@@ -163,17 +180,20 @@ int main(void) {
   </a>
 </Badge>
 
-## Listes / strings
+## Tableaux / Strings
 
-Une liste permet de stocker plusieurs valeurs de même type. Une chaîne de
-caractères (_string_) est une liste de `char` terminée par le caractère `\0`.
+Un tableau permet de stocker plusieurs valeurs de même type. Une chaîne de
+caractères (_string_) est une un tableau d'éléments de type `char`, et toujours
+terminée par le caractère `\0`.
 
-```c:line-numbers{5-7}
+La taille d'un tableau est fixe.
+
+```c:line-numbers{4-5}
 #include <stdio.h>
 
 int main(void) {
-  char name[] = "John";  // Chaîne de caractères (le \0 est ajouté automatiquement)
-  int numbers[3] = {33, 42, 84};  // Liste d'entiers (3 éléments)
+  char name[] = "John";  // Chaîne de caractères (le \0 est implicite)
+  int numbers[3] = {33, 42, 84};  // Tableau d'entiers (3 éléments)
 
   printf("name: %s\n", name);
   printf("numbers: %d, %d, %d\n", numbers[0], numbers[1], numbers[2]);
@@ -183,7 +203,7 @@ int main(void) {
 
 <Badge type="info">
   <Icon icon="simple-icons:compilerexplorer" />
-  <a href="https://godbolt.org/z/nno5PzTv9" target="_blank">
+  <a href="https://godbolt.org/z/xPcbMsfn7" target="_blank">
     Exécuter sur Compiler Explorer
   </a>
 </Badge>
@@ -191,22 +211,55 @@ int main(void) {
 ## Pointeurs
 
 Un pointeur permet de stocker l'adresse d'un emplacement mémoire ou d'une
-variable.
+variable. Le type d'un pointeur se définit avec `*` (par exemple, `int *` pour un
+pointeur sur un entier).
 
-On peut obtenir un emplacement mémoire avec `malloc`. Il faut le libérer avec
-`free` lorsqu'on n'en a plus besoin.
+Pour accéder à la valeur d'un pointeur, on utilise l'opérateur `*`. On peut
+obtenir le pointeur d'une variable avec `&`.
 
-L'une des utilisations des pointeurs est de créer des listes d'un grand nombre
+```c:line-numbers{3-5,9}
+#include <stdio.h>
+
+void add_one(int *number) {
+  *number += 1;
+}
+
+int main(void) {
+  int x = 5;
+  add_one(&x);
+  printf("x: %d\n", x);
+}
+```
+
+<Badge type="info">
+  <Icon icon="simple-icons:compilerexplorer" />
+  <a href="https://godbolt.org/z/Grad15rrc" target="_blank">
+    Exécuter sur Compiler Explorer
+  </a>
+</Badge>
+
+## Allocation de mémoire
+
+La fonction `malloc` permet d'obtenir un emplacement mémoire d'une taille
+choisie. C'est par exemple utile pour créer des listes d'un grand nombre
 d'éléments, ou d'une taille inconnue avant l'exécution du programme.
 
-```c:line-numbers{5-8,14}
+La quantité de mémoire à allouer doit être indiquée en octets, l'opérateur
+`sizeof` permet d'obtenir la taille d'un type de données.
+
+La fonction `malloc` renvoie un pointeur vers le début de la zone de mémoire
+allouée. Cette mémoire doit être libérée avec `free` lorsqu'on n'en a plus
+besoin.
+
+```c:line-numbers{5-9,15}
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
-  int *list = malloc(50 * sizeof(int)); // Liste de 50 entiers
+  // Allocation d'une zone de mémoire que l'on remplit avec 50 entiers
+  int *list = malloc(50 * sizeof(int));
   for (int i = 0; i < 50; i++) {
-    list[i] = i * 2;  // On remplit la liste avec des nombres
+    list[i] = i * 2;
   }
 
   printf("list[0]: %d\n", list[0]);
@@ -214,13 +267,12 @@ int main(void) {
   printf("list[49]: %d\n", list[49]);
 
   free(list);  // On libère la mémoire
-  return 0;
 }
 ```
 
 <Badge type="info">
   <Icon icon="simple-icons:compilerexplorer" />
-  <a href="https://godbolt.org/z/v7bEKb4zn" target="_blank">
+  <a href="https://godbolt.org/z/Kfe3hT5bW" target="_blank">
     Exécuter sur Compiler Explorer
   </a>
 </Badge>

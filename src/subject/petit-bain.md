@@ -33,6 +33,8 @@ Hello World
 Crée une fonction qui affiche les lettres dans l'ordre alphabétique en minuscules,
 sur une seule ligne.
 
+Les caractères sont encodés en utilisant [le code ASCII](https://man7.org/linux/man-pages/man7/ascii.7.html).
+
 ```c
 int my_print_alpha(void);
 ```
