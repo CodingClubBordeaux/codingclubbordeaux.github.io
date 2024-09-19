@@ -38,7 +38,14 @@ export default defineConfig({
           },
         ],
       },
-      { text: 'Guides', items: [{ text: 'Langage C', link: '/guides/c' }] },
+      {
+        text: 'Guides',
+        items: [
+          { text: 'Langage C', link: '/guides/c' },
+          { text: 'Langage JavaScript', link: '/guides/javascript' },
+          { text: 'Languages HTML/CSS', link: '/guides/html-css' },
+        ],
+      },
     ],
 
     socialLinks: [

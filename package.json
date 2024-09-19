@@ -17,10 +17,11 @@
     "@iconify/vue": "^4.1.2"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "vitepress": "1.1.0"
+    "prettier": "^3.3.3",
+    "vitepress": "^1.3.4"
   },
   "prettier": {
     "singleQuote": true
-  }
+  },
+  "packageManager": "pnpm@9.10.0"
 }
