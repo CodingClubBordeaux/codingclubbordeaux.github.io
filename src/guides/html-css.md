@@ -18,15 +18,16 @@ servir pour changer le code et comprendre ce qu'il s'y passe.
 
 ::: tip Liens utiles 🔗
 
-Quelques liens utiles pour aller plus loin et se documenter sur le langage JavaScript:
+Quelques liens utiles pour aller plus loin et se documenter sur les langages HTML/CSS:
 
-TODO
+- [_Structuring the web with HTML_ sur le MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [_CSS_ sur le MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 On te recommande d'utiliser l'éditeur de code <Icon icon="logos:visual-studio-code" /> [VSCode](https://code.visualstudio.com/)
 pour débuter. L'extension [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 (optionnelle) permet d'afficher ta page web dans l'éditeur et de visualiser les modifications en direct.
 
-Pour exécuter rapidement du code JavaScript sans installer de logiciel, tu peux utiliser <Icon icon="simple-icons:jsfiddle" /> [JSFiddle](https://jsfiddle.net/).
+Pour exécuter rapidement du code HTML/CSS sans installer de logiciel, tu peux utiliser <Icon icon="simple-icons:jsfiddle" /> [JSFiddle](https://jsfiddle.net/).
 
 :::
 
@@ -57,7 +58,7 @@ balises. Toute page HTML valide doit contenir certaines balises:
 
 <Badge type="info">
   <Icon icon="simple-icons:jsfiddle" />
-  <a href="TODO" target="_blank">
+  <a href="https://jsfiddle.net/cdnmf26k/" target="_blank">
     Exécuter sur JSFiddle
   </a>
 </Badge>
@@ -96,7 +97,7 @@ utiles que tu utilisera au Coding Club:
 
 <Badge type="info">
   <Icon icon="simple-icons:jsfiddle" />
-  <a href="TODO" target="_blank">
+  <a href="https://jsfiddle.net/xc9s7a0h/" target="_blank">
     Exécuter sur JSFiddle
   </a>
 </Badge>
@@ -111,7 +112,7 @@ afficher dans ses résultats).
 Par exemple, l'élément `<article>` délimite un article (de presse, blog, ...),
 mais a en réalité le même comportement qu'un élément `<div>`.
 
-N'hésite pas à consulter le [MDN](TODO) pour une liste exhaustive des éléments
+N'hésite pas à consulter le [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) pour une liste exhaustive des éléments
 HTML disponibles.
 
 :::
@@ -163,6 +164,7 @@ placer dans le `<head>`**).
 ```css [style.css]
 body {
   background-color: blue;
+  color: white;
 }
 ```
 
@@ -170,7 +172,7 @@ body {
 
 <Badge type="info">
   <Icon icon="simple-icons:jsfiddle" />
-  <a href="TODO" target="_blank">
+  <a href="https://jsfiddle.net/91L2bv0n/" target="_blank">
     Exécuter sur JSFiddle
   </a>
 </Badge>
@@ -225,7 +227,7 @@ body {
 
 <Badge type="info">
   <Icon icon="simple-icons:jsfiddle" />
-  <a href="TODO" target="_blank">
+  <a href="https://jsfiddle.net/1sxy38hc/" target="_blank">
     Exécuter sur JSFiddle
   </a>
 </Badge>
@@ -233,7 +235,7 @@ body {
 ## Propriétés CSS
 
 Il existe de nombreuses propriétés CSS permettant de modifier l'apparence des
-éléments. **N'hésite pas à consulter la liste complète sur le [MDN](TODO).**
+éléments. **N'hésite pas à consulter la liste complète sur le [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).**
 
 Voici quelques propriétés utiles:
 
@@ -248,6 +250,6 @@ Voici quelques propriétés utiles:
 
 Pour modifier la position des éléments dans la page, renseigne-toi sur l'utilisation des flexbox.
 
-TODO: liens flexbox
+[_Flexbox_ sur le MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
 :::

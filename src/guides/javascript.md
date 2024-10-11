@@ -300,7 +300,7 @@ buttonElement.addEventListener('click', incrementCounter);
 
 <Badge type="info">
   <Icon icon="simple-icons:jsfiddle" />
-  <a href="TODO" target="_blank">
+  <a href="https://jsfiddle.net/vtd46u5s/" target="_blank">
     Exécuter sur JSFiddle
   </a>
 </Badge>
