@@ -26,6 +26,10 @@ export default defineConfig({
             text: 'Web',
             items: [
               { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
+              {
+                text: 'Halloween Camp',
+                link: 'https://epitechcontent.notion.site/Premiers-pas-Trick-or-Treats-1183675a640380feabd4d79c9badf150',
+              },
             ],
           },
           {
