@@ -23,13 +23,22 @@ export default defineConfig({
         text: 'Sujets',
         items: [
           {
-            text: 'Web',
+            text: 'Camps',
             items: [
-              { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
+              {
+                text: 'Christmas Camp',
+                link: 'https://epitechcontent.notion.site/Cadeaux-Clicker-1493675a640380dab16dfd888ecd3df0',
+              },
               {
                 text: 'Halloween Camp',
                 link: 'https://epitechcontent.notion.site/Premiers-pas-Trick-or-Treats-1183675a640380feabd4d79c9badf150',
               },
+            ],
+          },
+          {
+            text: 'Web',
+            items: [
+              { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
             ],
           },
           {
