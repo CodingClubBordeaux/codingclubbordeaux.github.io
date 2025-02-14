@@ -26,6 +26,10 @@ export default defineConfig({
             text: 'Camps',
             items: [
               {
+                text: 'Winter Camp',
+                link: 'https://epitechcontent.notion.site/Winter-Camp-68c8709a60274ec4a00ae853f3240036',
+              },
+              {
                 text: 'Christmas Camp',
                 link: 'https://epitechcontent.notion.site/Cadeaux-Clicker-1493675a640380dab16dfd888ecd3df0',
               },
