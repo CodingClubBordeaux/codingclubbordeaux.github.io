@@ -47,7 +47,9 @@ export default defineConfig({
           },
           {
             text: 'Python',
-            items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' }],
+            items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' },
+                    { text: 'TekTris', link: '/subject/tektris' },
+            ],
           },
           {
             text: 'C',
