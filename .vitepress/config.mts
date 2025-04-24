@@ -43,6 +43,7 @@ export default defineConfig({
             text: 'Web',
             items: [
               { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
+              { text: 'Hack The Dino', link: 'https://epitech-academy.notion.site/hacker-le-jeu-chrome-dino' },
             ],
           },
           {
