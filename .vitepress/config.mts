@@ -44,6 +44,7 @@ export default defineConfig({
             items: [
               { text: 'Epitech Clicker', link: '/subject/epitech-clicker' },
               { text: 'Hack The Dino', link: 'https://epitech-academy.notion.site/hacker-le-jeu-chrome-dino' },
+              { text: 'EpiQuest (Halloween Camp 2025)', link: 'https://lab.epitech.academy/discover-linux-starter/' },
             ],
           },
           {
