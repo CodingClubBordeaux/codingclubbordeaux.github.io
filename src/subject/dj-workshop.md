@@ -17,6 +17,8 @@ Imaginez que vous êtes DJ à une fête. Vous avez deux platines (ou decks) deva
 
 **Connexion au monde réel** : C'est similaire au fonctionnement des logiciels DJ professionnels - plusieurs pistes, contrôles indépendants, et la capacité de mélanger les sons ensemble. Une fois que vous comprenez ces concepts, vous pouvez les appliquer pour créer des applications audio plus complexes !
 
+[`Téléchargement audio`](/dj-assets.zip)
+
 ### Pour commencer : Code de base
 
 Avant de commencer, vous avez besoin d'un point de départ. Voici le code minimal pour faire fonctionner votre projet :
