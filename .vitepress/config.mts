@@ -27,7 +27,7 @@ export default defineConfig({
             items: [
               {
                 text: 'Winter Camp',
-                link: 'https://epitechcontent.notion.site/Winter-Camp-68c8709a60274ec4a00ae853f3240036',
+                link: '/subject/dataviz_python/starter',
               },
               {
                 text: 'Christmas Camp',
