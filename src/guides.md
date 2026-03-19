@@ -7,4 +7,4 @@ base de ces langage:
 - <Icon icon="logos:c" /> [Guide langage C](./guides/c.md)
 - <Icon icon="logos:javascript" /> [Guide langage JavaScript](./guides/javascript.md)
 - <Icon icon="logos:html-5" /> [Guide langages HTML/CSS](./guides/html-css.md)
-- <Icon icon="logos:python" /> Guide langage Python _(prochainement)_
+- <Icon icon="logos:python" /> [Guide langage Python](./guides/python.md)

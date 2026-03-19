@@ -66,6 +66,7 @@ export default defineConfig({
           { text: 'Langage C', link: '/guides/c' },
           { text: 'Langage JavaScript', link: '/guides/javascript' },
           { text: 'Languages HTML/CSS', link: '/guides/html-css' },
+          { text: 'Language Python', link: '/guides/python' },
         ],
       },
     ],
