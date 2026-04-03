@@ -58,6 +58,15 @@ export default defineConfig({
             text: 'C',
             items: [{ text: 'Petit Bain', link: '/subject/petit-bain' }],
           },
+          {
+            text: 'Bootcamp',
+            items: [
+              {
+                text: 'Bootcamp secondes',
+                link: '/subject/bootcamp_secondes',
+              }
+            ]
+          },
         ],
       },
       {
