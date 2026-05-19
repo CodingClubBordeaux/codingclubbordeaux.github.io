@@ -52,6 +52,7 @@ export default defineConfig({
             text: 'Python',
             items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' },
                     { text: 'TekTris', link: '/subject/tektris' },
+                    { text: 'SemaineIA', link: '/subject/semaineIA.md' },
             ],
           },
           {
