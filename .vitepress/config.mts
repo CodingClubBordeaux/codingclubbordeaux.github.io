@@ -53,11 +53,17 @@ export default defineConfig({
             items: [{ text: 'Tek Shooter', link: '/subject/tek-shooter' },
                     { text: 'TekTris', link: '/subject/tektris' },
                     { text: 'SemaineIA', link: '/subject/semaineIA.md' },
+                    { text: 'PyPong', link: "https://epitech-academy.notion.site/pypong" },
             ],
           },
           {
             text: 'C',
             items: [{ text: 'Petit Bain', link: '/subject/petit-bain' }],
+          },
+          {
+            text: 'JS',
+            items: [{text: 'Snake Js', link: 'https://epitech-academy.notion.site/snake-js' },
+            ],
           },
           {
             text: 'Bootcamp',
