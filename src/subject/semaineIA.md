@@ -53,6 +53,8 @@ touch semaineIA.ipynb
 
 ### 2. Charger le CSV avec pandas
 
+[jeu_de_données][https://www.kaggle.com/datasets/ankitkumar2635/sentiment-and-emotions-of-tweets]
+
 Pandas est une bibliothèque python qui vas nous permettre de manipuler la donnée que notre IA a utiliser pour apprendre. Ici nous allons ouvrir notre donnée d'entrainement et la manipulaé pour mieux visualiser son ocntenue.
 ```python
 import pandas as pd
